@@ -4,7 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: Montserrat, sans-serif;
-	width: 100%
+	/* width: 100% */
 }
 
 html {
@@ -15,7 +15,11 @@ nav {
 	position: fixed;
 	width: 100%;
 	padding: 0;
-	margin: 0
+	margin: 0;
+}
+
+.material-icons {
+	align-items: center;
 }
 
 ul {
@@ -484,4 +488,8 @@ footer {
 	.footer-distributed .footer-center i {
 		margin-left: 0
 	}
+}
+
+*{
+	padding: 0;
 }
